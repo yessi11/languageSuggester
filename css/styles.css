@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h4 {
   text-align: center;
   color: rgb(129, 62, 62);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -6,4 +6,13 @@ h1, h2 {
 
 p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.username {
+  text-align: center;
+}
+
+h4 {
+  display: none;
 }
