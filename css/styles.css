@@ -9,10 +9,14 @@ p {
   text-align: center;
 }
 
-.username {
+#nameid {
   text-align: center;
 }
 
 h4 {
+  display: none;
+}
+
+#name {
   display: none;
 }
