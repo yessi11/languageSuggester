@@ -9,7 +9,7 @@ p {
   text-align: center;
 }
 
-#nameid {
+#name0form {
   text-align: center;
 }
 
@@ -17,6 +17,6 @@ h4 {
   display: none;
 }
 
-#name {
+.name {
   display: none;
 }

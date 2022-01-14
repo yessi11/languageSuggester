@@ -1,12 +1,14 @@
 $(document).ready(function() {
-  $("#nameid").sumbit(function(event) {
-    const firstname = $(".fname").val();
-    const lastname = $(".lname").val();
-
-    const result = add (fname, lname);
-    $("#name").text(username);
+  $("#name0form").sumbit(function(event) {
+    const fname = $("input#fname").val();
+    const lname = $("input#lname").val();
+    
+    
+      $("#username").text(".name");
+      $(".name").show();
+  
+    
   
     event.preventDefault();
-
   });
 });
