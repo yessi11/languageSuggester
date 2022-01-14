@@ -13,15 +13,20 @@ p {
   text-align: center;
 }
 
-h4, #survey0form {
-  display: none;
-}
-
-.name {
+.showAsk {
   display: none;
 }
 
 .form-control {
   text-align: center;
   color: blue;
+}
+
+.clickable {
+  cursor: pointer;
+  color: rgb(29, 145, 6);
+} 
+
+.clickable:hover {
+  text-decoration: underline;
 }

@@ -11,4 +11,9 @@ $(document).ready(function() {
   
     event.preventDefault();
   });
+
+  $(".clickable").click(funciton() {
+    $(".showAsk").toggle();
+  });
+
 });
