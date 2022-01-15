@@ -16,7 +16,8 @@ $(document).ready(function() {
   });
 
 //results for questionaire 
-  $  
+  $("form#survey0form").submit(function(event)
+  
 
 
 });
