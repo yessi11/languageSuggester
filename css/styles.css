@@ -13,7 +13,7 @@ p {
   text-align: center;
 }
 
-.showAsk, #name1 {
+.showAsk, #name1, .javascript, .python, .ruby {
   display: none;
 }
 
@@ -29,4 +29,8 @@ p {
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+#username {
+  font-weight: bolder;
 }
