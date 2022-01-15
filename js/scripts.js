@@ -1,19 +1,18 @@
 $(document).ready(function() {
-  $("#name0form").sumbit(function(event) {
-    const fname = $("input#fname").val();
-    const lname = $("input#lname").val();
+//submit form for id name
+$("form#insurance").submit(function(event) {
+  const name = $("input#fullname").val();
     
-    
-      $("#username").text(".name");
-      $(".name").show();
+  $("#name1").text(name);
+  $("#username").show();
   
-    
+  event.preventDefault();
+});
   
-    event.preventDefault();
-  });
-
-  $(".clickable").click(funciton() {
+//once name input will move on to questions
+  $(".clickable").click(function() {
     $(".showAsk").toggle();
   });
+
 
 });

@@ -13,7 +13,7 @@ p {
   text-align: center;
 }
 
-.showAsk {
+.showAsk, #name {
   display: none;
 }
 

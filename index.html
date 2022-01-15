@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,69 +8,74 @@
   <script src="js/scripts.js"></script>
   <title>Language Finder</title> 
 </head>
-<body>
-  <div class="container">
-    <h1>Languages</h1>
-    <h2>Having trouble deciding what code language you should learn?</h2>
-    <p>Lets first begin with your name!</p>
-  </div>
 
-    <form id="name0form">
-      <label for="fname"> First Name:</label> <br>
-      <input type="text" id="fname"><br>
-      <label for="lname"> Last Name:</label><br>
-      <input type="text" id="lname"><br>
+<body>
+
+  <div class="container">
+
+    <h1>Languages</h1><br>
+    <h2>Having trouble deciding what code language you should learn?</h2><br>
+    
+      <form id="name0form">
+        <label for="fullname"> Lets first begin with your name!:</label><br>
+        <input type="text" id="fullname"><br>
 
       <button type="submit" class="btn"> Sumbit</button>
 
-      <p class="name"> Hello, welcome <span id="username"> lets find out more about you! </span><span class="clickable">Cick Here to begin!</span></p> 
-    </form>
+        <div id="name1">
+        <p> Hello, welcome <span id="username"> lets find out more about you! </span><span class="clickable">Cick Here to begin!</span></p> 
+        </div>
+      </form>
 
     <div class="showAsk">
       <h4>Below are a series of questions desgined to help you find the language best suited for you</h4>
   
 
-    <from id="survey0form">
-      <label for="form-control"> What's your prefered operating system? </label>
-      <select class="form-control" id="question1">
-        <option>MacOs</option>
-        <option>Windows</option>
-        <option>Linux</option>
-        <option>Android</option>
-      </select>
-      <label for="form-control"> What's your prefered gaming platform?</label>
-      <select class="form-control" id="question2">
-        <option> XBOX </option>
-        <option> PlayStation </option>
-        <option> Nintendo </option>
-      </select>
-      <label for="form-control"> What's your favorite past time?</label>
-      <select class="form-control" id="question3">
-        <option> Reading/Writing </option>
-        <option> video games</option>
-        <option> Drawing/Painting </option>
-        <option> Music </option>
-      </select>
-      <label for="form-control"> What was your favorite subject in school?</label>
-      <select class="form-control" id="question4">
-        <option> Science </option>
-        <option> Math</option>
-        <option> Art</option>
-        <option> English</option>
-      </select>
-      <label for="form-control"> In ONE word how would you describe your problem-solving skills?</label>
-      <select class="form-control" id="question5">
-        <option> Trail and Error</option>
-        <option> Means-End Analysis</option>
-        <option> Difference Reduction</option>
-        <option> Brainstorming</option>
-      </select>
+      <from id="survey0form">
+
+        <label for="form-control"> What's your prefered operating system? </label>
+        <select class="form-control" id="question1">
+          <option>MacOs</option>
+          <option>Windows</option>
+          <option>Linux</option>
+          <option>Android</option>
+        </select>
+
+        <label for="form-control"> What's your prefered gaming platform?</label>
+        <select class="form-control" id="question2">
+          <option> XBOX </option>
+          <option> PlayStation </option>
+          <option> Nintendo </option>
+        </select>
+
+        <label for="form-control"> What's your favorite past time?</label>
+        <select class="form-control" id="question3">
+          <option> Reading/Writing </option>
+          <option> video games</option>
+          <option> Drawing/Painting </option>
+          <option> Music </option>
+        </select>
+
+        <label for="form-control"> What was your favorite subject in school?</label>
+          <select class="form-control" id="question4">
+          <option> Science </option>
+          <option> Math</option>
+          <option> Art</option>
+          <option> English</option>
+        </select>
+
+        <label for="form-control"> In ONE word how would you describe your problem-solving skills?</label>
+        <select class="form-control" id="question5">
+          <option> Trail and Error</option>
+          <option> Means-End Analysis</option>
+          <option> Difference Reduction</option>
+          <option> Brainstorming</option>
+        </select>
       
       <botton type="sumbit" class="btn">Show me my Language!</botton>
-    </from>
+      </from>
     </div>
   
-
-  
+  </div>
 </body>
 </html>
