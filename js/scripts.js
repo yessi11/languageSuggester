@@ -14,11 +14,12 @@ $(document).ready(function() {
     $(".showAsk").toggle();
     $(".hideAsk").toggle();
   });
-
+});
 //results for questionaire 
+$(document).ready(function() {
   $("form#survey0form").submit(function(event) {
-    const question1= $("select#question1").val();
-    const question2 = $("select#question2").val();
+    const question1 = $("#question1").val();
+    const question2 = $("#question2").val();
     
     if (question1 === "MacOs") {
       if (question2 === "XBOX") {
@@ -36,7 +37,7 @@ $(document).ready(function() {
       } else if (question2 === "Nintendo") {
         $(".ruby").show();
       }
-    } else if (question1 === "Linux") {
+    } else (question1 === "Linux") ;{
       if (question2 === "XBOX") {
         $(".javascript").show();
       } else if (question2 === "PlayStation") {
@@ -45,9 +46,9 @@ $(document).ready(function() {
         $(".ruby").show();
       }
     }
-
+    $("#begin").toggle
     event.preventDefault(); 
-    
+
     });
   
 });
