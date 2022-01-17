@@ -16,21 +16,38 @@ $(document).ready(function() {
   });
 
 //results for questionaire 
-  $("form#Side-length").submit(function(event) {
-    let question1 = ("select#question1").val();
-    let question2 = ("select#question2").val();
-    let question3 = ("select#question3").val();
-    let question4 = ("select#question4").val();
-    let question5 = ("select#question5").val();
+  $("form#survey0form").submit(function(event) {
+    const question1= $("select#question1").val();
+    const question2 = $("select#question2").val();
+    
+    if (question1 === "MacOs") {
+      if (question2 === "XBOX") {
+        $(".javascript").show();
+      } else if (question2 === "PlayStation") {
+        $(".python").show();
+      } else if (question2 === "Nintendo") {
+        $(".ruby").show();
+      }
+    } else if (question1 === "Windows") {
+      if (question2 === "XBOX") {
+        $(".javascript").show();
+      } else if (question2 === "PlayStation") {
+        $(".python").show();
+      } else if (question2 === "Nintendo") {
+        $(".ruby").show();
+      }
+    } else if (question1 === "Linux") {
+      if (question2 === "XBOX") {
+        $(".javascript").show();
+      } else if (question2 === "PlayStation") {
+        $(".python").show();
+      } else if (question2 === "Nintendo") {
+        $(".ruby").show();
+      }
+    }
 
-    if (value > 9) {
-    $(".javascript").show();
-  } else if (value <= 9 ) {
-    $(".python").show();
-  } else {
-    $(".ruby").show();
-  }
-
-    event.preventDefault();
-  });
+    event.preventDefault(); 
+    
+    });
+  
 });

@@ -34,3 +34,7 @@ p {
 #username {
   font-weight: bolder;
 }
+
+.btn {
+  color: aqua;
+} 
