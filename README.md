@@ -11,6 +11,7 @@
 * Bootstrap
 * VSCode text editor
 * Javascript
+* jQuery
 
 ## Description
 
